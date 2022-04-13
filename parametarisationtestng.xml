@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <classes>
+  	<class name="parametarization.NormalParametar">
+  	<methods>
+  	<parameter name="browser1" value="chromedriver"></parameter>
+  	<parameter name="version1" value="90.0.93"></parameter>
+  	<include name="testcase1"></include>
+  	<parameter name="browser2" value="firefoxdriver"></parameter>
+  	<parameter name="version2" value="88"></parameter>
+  	<include name="testcase2"></include>
+  	</methods>
+  	</class>  	
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

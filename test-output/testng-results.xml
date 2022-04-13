@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[test case from regrassion group]]>
+    </line>
+    <line>
+      <![CDATA[test case from sanity group]]>
+    </line>
+    <line>
+      <![CDATA[test case from regrassion group]]>
+    </line>
+    <line>
+      <![CDATA[test case from sanity group]]>
+    </line>
+    <line>
+      <![CDATA[test case from sanity group]]>
+    </line>
+    <line>
+      <![CDATA[test case from sanity group]]>
+    </line>
+    <line>
+      <![CDATA[test case from sanity and regrassion]]>
+    </line>
+    <line>
+      <![CDATA[test case from sanity and regrassion]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118" started-at="2021-12-02T18:01:10Z" finished-at="2021-12-02T18:01:10Z">
+    <groups>
+      <group name="regrassion">
+        <method signature="DependOnGroups.regrassion1()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="regrassion1" class="keyword.DependOnGroups"/>
+        <method signature="DependOnGroups.sanityregra()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="sanityregra" class="keyword.DependOnGroups"/>
+        <method signature="DependsOnMethods.regrassion13()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="regrassion13" class="keyword.DependsOnMethods"/>
+        <method signature="DependsOnMethods.sanityregra14()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="sanityregra14" class="keyword.DependsOnMethods"/>
+      </group> <!-- regrassion -->
+      <group name="sanity">
+        <method signature="DependOnGroups.sanity1()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="sanity1" class="keyword.DependOnGroups"/>
+        <method signature="DependOnGroups.sanity2()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="sanity2" class="keyword.DependOnGroups"/>
+        <method signature="DependOnGroups.sanityregra()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="sanityregra" class="keyword.DependOnGroups"/>
+        <method signature="DependsOnMethods.sanity11()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="sanity11" class="keyword.DependsOnMethods"/>
+        <method signature="DependsOnMethods.sanity12()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="sanity12" class="keyword.DependsOnMethods"/>
+        <method signature="DependsOnMethods.sanityregra14()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="sanityregra14" class="keyword.DependsOnMethods"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="118" started-at="2021-12-02T18:01:10Z" finished-at="2021-12-02T18:01:10Z">
+      <class name="keyword.DependsOnMethods">
+        <test-method status="PASS" signature="regrassion13()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="regrassion13" duration-ms="36" started-at="2021-12-02T23:31:10Z" finished-at="2021-12-02T23:31:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case from regrassion group]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- regrassion13 -->
+        <test-method status="PASS" signature="sanity11()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="sanity11" duration-ms="2" started-at="2021-12-02T23:31:10Z" finished-at="2021-12-02T23:31:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case from sanity group]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sanity11 -->
+        <test-method status="PASS" signature="sanity12()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="sanity12" duration-ms="3" started-at="2021-12-02T23:31:10Z" finished-at="2021-12-02T23:31:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case from sanity group]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sanity12 -->
+        <test-method status="PASS" signature="sanityregra14()[pri:0, instance:keyword.DependsOnMethods@c038203]" name="sanityregra14" duration-ms="1" started-at="2021-12-02T23:31:10Z" finished-at="2021-12-02T23:31:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case from sanity and regrassion]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sanityregra14 -->
+      </class> <!-- keyword.DependsOnMethods -->
+      <class name="keyword.DependOnGroups">
+        <test-method status="PASS" signature="regrassion1()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="regrassion1" duration-ms="27" started-at="2021-12-02T23:31:10Z" finished-at="2021-12-02T23:31:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case from regrassion group]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- regrassion1 -->
+        <test-method status="PASS" signature="sanity1()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="sanity1" duration-ms="3" started-at="2021-12-02T23:31:10Z" finished-at="2021-12-02T23:31:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case from sanity group]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sanity1 -->
+        <test-method status="PASS" signature="sanity2()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="sanity2" duration-ms="2" started-at="2021-12-02T23:31:10Z" finished-at="2021-12-02T23:31:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case from sanity group]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sanity2 -->
+        <test-method status="PASS" signature="sanityregra()[pri:0, instance:keyword.DependOnGroups@4678c730]" name="sanityregra" duration-ms="24" started-at="2021-12-02T23:31:10Z" finished-at="2021-12-02T23:31:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case from sanity and regrassion]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sanityregra -->
+      </class> <!-- keyword.DependOnGroups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

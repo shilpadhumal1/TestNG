@@ -26,6 +26,8 @@ public class BeforeClass1
 	public void testcase1()
 	{
 		Reporter.log("test case 1", true);
+		
+		
 	}
 	@AfterMethod
 	public void afterMethod()

@@ -11,6 +11,7 @@ public class BeforeSuit
 	@BeforeSuite
 	public void beforeSuite()
 	{
+		
 		Reporter.log("BeforSuite Method", true);
 	}
 	@Test

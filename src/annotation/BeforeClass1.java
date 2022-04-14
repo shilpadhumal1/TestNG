@@ -15,6 +15,8 @@ public class BeforeClass1
 	public void beforeClass()
 	{
 		
+		
+		
 		Reporter.log("Beforeclass Method", true);
 	}
 	@BeforeMethod
